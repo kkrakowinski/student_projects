@@ -1,0 +1,7 @@
+main.cpp: In function ‘int main()’:
+main.cpp:6:53: error: too many initializers for ‘char [2][2]’
+    6 | char tab[2][2] ={'1','2','3','4','5','6','7','8','9'};
+      |                                                     ^
+main.cpp:10:25: error: a function-definition is not allowed here before ‘{’ token
+   10 | void Rysowanie_planszy(){
+      |                         ^
